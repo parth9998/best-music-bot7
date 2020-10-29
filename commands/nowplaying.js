@@ -16,11 +16,7 @@ module.exports = {
       .setDescription(`${song.title}\n${song.url}`)
       .setColor("#F8AA2A")
       .setAuthor("DJ VENOM")
-      
-
-    if (song.duration > 0)
-      nowPlaying.setFooter("Time Remaining: " + new Date(left * 1000).toISOString().substr(11, 8));
-
+     
     return message.channel.send(nowPlaying);
   }
 };
