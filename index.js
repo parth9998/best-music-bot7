@@ -32,7 +32,7 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 client.on("ready", () => {
   console.log(`${client.user.username} ready!`);
  // client.user.setActivity(`${PREFIX}help`);
-  client.user.setActivity("VENOM //help",{
+  client.user.setActivity("XD //help",{
     type: "LISTENING" //can be LISTENING, WATCHING, PLAYING, STREAMING
   });
   
